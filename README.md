@@ -4,4 +4,4 @@
   importance of healthy lifestyle and values. 
 * Next it showcase the diffrent efficient and feasible ways to have and make the digital ways work for your health and lifestyle, whiich includes
   the BMI Calculator and Healing music.
-* Finally comes few of famous blogs about these topics and how to impliment and make it count in your every day life.
+* Finally comes few of famous blogs about these topics and makes you learn how to impliment and make it count in your every day life.
