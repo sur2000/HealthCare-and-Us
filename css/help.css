@@ -1,0 +1,219 @@
+.help-others-title {
+    margin-top: 62px;
+    text-align: center;
+    font-size: 62px;
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 124px;
+}
+
+.help-others-title div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.help-others-acquaintance-struggling {
+    margin-bottom: 0px;
+}
+
+.help-others-row-one, .help-others-row-two, .help-others-row-three, .help-others-row-four {
+    height: 800px;
+}
+
+.help-others-portion-left {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.help-others-portion-right {
+    float: right;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.portion-img {
+    overflow: hidden;
+    display: flex; /* display:flex and align-items:center used to vertically align images into the center of the container */
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.portion-img img {
+    width: 75%;
+}
+
+.portion-heading {
+    font-size: 32px;
+    font-weight: 600;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    height: 150px;
+}
+
+.portion-body {
+    font-size: 24px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    overflow: hidden; /* change the height settings for .portion-body, .portion-heading and 
+    .help-others-portion-left & -right in other screen sizes*/
+}
+
+.help-others-big-image {
+    margin-bottom: 124px;
+}
+
+.help-others-big-image img {
+    width: 85%;
+    height: auto;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.help-others-tips {
+    margin-bottom: 62px;
+}
+
+.help-others-tips div {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 80px;
+}
+
+.help-others-tips a, .help-others-tips a:hover {
+    color: #64d6f8;
+    text-decoration: none;
+}
+
+/* Extra small devices (phones) */
+@media only screen and (max-width:717px) {
+    .help-others-title {
+        font-size: 32px;
+        margin-top: 32px;
+        margin-bottom: 62px;
+    }
+    .help-others-row-one, .help-others-row-two, .help-others-row-three, .help-others-row-four {
+        height: auto;
+    }
+    .help-others-portion-left, .help-others-portion-right {
+        float: none;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 62px;
+    }
+    .portion-img {
+        height: auto;
+        text-align: center;
+    }
+    .portion-img img {
+        width: 90%;
+    }
+    .portion-heading {
+        font-size: 18px;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 18px;
+    }
+    .portion-body {
+        font-size: 16px;
+        height: auto;
+    }
+    .help-others-big-image {
+        margin-bottom: 62px;
+    }
+    .help-others-big-image img {
+        width: 100%;
+        border-radius: 0%;
+    }
+    .help-others-tips {
+        margin-bottom: 32px;
+    }
+    .help-others-tips div {
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+}
+
+/* Small devices (Tablets and landscape phones) */
+@media only screen and (min-width:718px) and (max-width:992px) {
+    .help-others-title {
+        font-size: 45px;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    .help-others-acquaintance-struggling {
+        margin-bottom: 600px;
+    }
+    .help-others-row-one, .help-others-row-two, .help-others-row-three, .help-others-row-four {
+        height: 500px;
+    }
+    .help-others-portion-left, .help-others-portion-right {
+        margin-bottom: 18px;
+    }
+    .portion-img {
+        height: 225px; /* 45px times 5 = 225px */
+    }
+    .portion-heading {
+        font-size: 26px;
+        padding-top: 12px;
+        padding-bottom: 26px;
+    }
+    .portion-body {
+        font-size: 20px;
+        height: 275px;
+    }
+    .help-others-big-image {
+        margin-top: 45px;
+        margin-bottom: 90px;
+    }
+    .help-others-tips {
+        margin-bottom: 45px;
+    }
+    .help-others-tips div {
+        font-size: 30px;
+        padding-bottom: 60px;
+        width: 67%;
+    }
+}
+
+/* Large devices (Large desktops and laptops) */
+@media only screen and (min-width: 1824px) {
+    .help-others-title div {
+        width: 60%;
+    }
+    .help-others-acquaintance-struggling {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .help-others-big-image {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .help-others-tips {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
