@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Listen and Heal</title>
+    <link rel="stylesheet" href="css/music.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body> 
+    <div class="container">
+        <div class="navbar">
+            <img src="media/logo.png" class="logo">
+        </div>
+    </div>
+   <div class="content">
+     <div class="left-col">
+        <h1>The <br>Healing <br>Sound</h1>
+     </div>
+
+     <div class="right-col">
+        <p>Click here to listen</p> 
+        <img src="media/play.png" id="icon">
+     </div>
+   </div>  
+   <audio id="mySong">
+    <source src="media/heal.mp3" type="audio/mp3">
+   </audio> 
+
+   <script>
+    var mySong = document.getElementById("mySong")
+    var icon = document.getElementById("icon")
+
+    icon.onclick = function(){ 
+        if(mySong.paused){
+            mySong.play(); 
+            icon.src = "media/pause.png";
+        }else {
+            mySong.pause();
+            icon.src = "media/play.png";
+
+        }
+        
+    }
+   </script>
+</body>
+</html>
